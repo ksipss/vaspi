@@ -1,0 +1,27 @@
+table {
+    width: 900px;
+    text-align: center;
+    margin: auto auto;
+    padding: 0px 0px;
+height: 800px;
+border: rgb(175, 78, 22) 50px solid;
+border-collapse: collapse;
+}
+th {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    width: 100px;
+    height: 100px;
+}
+tr {
+    background: black;
+    width: 100px;
+    height: 100px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    
+
+}
+.redd {
+    background-color: red;
+}

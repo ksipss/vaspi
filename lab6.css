@@ -1,0 +1,11 @@
+table {
+    width: 80%;
+    height: 600px;
+    border: 1px solid red;
+    margin: 10px auto;
+}
+td {
+    border: 1px solid black;
+    min-height: 50px;
+    height: auto;
+}

@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+}
+
+.site-title {
+    flex: 10;
+}
+
+.site-logo {
+    flex: 1;
+    text-align: center;
+}
+
+.site-header {
+    display: flex;
+    height: 150px;
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.site-logo img {
+    max-width: 100px;
+}
+
+.site-title h1 {
+    font-size: 6em;
+    text-shadow: 1px 1px 2px black
+}
+.page-nav a {
+    text-align: center;
+    padding-left: 170px;
+}
+.page-nav {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+}
+
+.page-nav div {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+}
+
+.page-nav a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #376fff;
+    text-decoration: none;
+    
+}
+
+.page-nav a:hover {
+    background: #63e2ff;
+}
+
+.page-nav span {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+
+}
+
+.about-part {
+    padding: 30px 0;
+
+    background-color: #006db9;
+
+}
+
+.about-part .container {
+    display: flex;
+}
+
+.about-part-image img {
+    max-width: 100%;
+}
+
+.about-part-text h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.about-part-text p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.about-part-text {
+    margin-left: 25px;
+    flex: 1;
+    color: #f0f8ff;
+}
+
+.about-part-image {
+    margin-right: 25px;
+    flex: 1;
+}
+
+.service-part .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: none;
+}
+
+.service-part-card {
+    width: 30%;
+    margin: 15px;
+    min-height: 350px;
+}
+
+.service-part-card-image {
+    max-height: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-part-card img {
+    max-width: 100%;
+}
+
+.page-nav a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #376fff;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.service-part-card-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.service-part-card-links a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #376fff;
+    text-decoration: none;
+}
+.service-part-card-links a:hover {
+    background-color: #6de627;
+}
+
+.service-part-card-links span {
+    width: 100%;
+    background-color: #376fff;
+    padding: 10px 10px;
+}
+.service-part-card-links span:hover {
+    background-color: #0544e4;
+}
+
+
+.special-part {
+    background-image: url(img/course.jpg);
+    background-size: cover;
+    padding: 48px 60px;
+    margin: 25px 0;
+}
+
+.special-part h2 {
+    font-size: 3em;
+}
+.service-part-card h2 {
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.special-part a {
+    display: block;
+    color: #fff;
+    background: #5cb85c;
+    border: 2px solid #4cae4c;;
+    font-size: 28px;
+    width: 75%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.special-part-content {
+    background: rgba(255, 255, 255, .5);
+    padding: 40px 60px;
+}
+
+.site-footer {
+    background: #4d4d4d;
+}
+
+.site-footer > .container {
+    display: flex;
+    align-items: center;
+}
+
+.nav, .social, .about-dev {
+    flex: 1;
+}
+
+.site-footer img {
+    max-width: 30px;
+}
+
+.site-footer li {
+    list-style-type: none;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+}
+#b {
+    margin: auto;
+}
